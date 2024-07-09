@@ -1,0 +1,62 @@
+[
+  {
+    "encoding": "inplace",
+    "label": "uint64",
+    "numberOfBytes": "8",
+    "type": "t_uint64",
+    "oldNumberOfBytes": 8,
+    "newNumberOfBytes": 8,
+    "base": null,
+    "members": null
+  },
+  {
+    "base": "t_uint64",
+    "encoding": "inplace",
+    "label": "uint64[5]",
+    "numberOfBytes": "64",
+    "type": "t_array(t_uint64)5_storage",
+    "oldNumberOfBytes": 64,
+    "newNumberOfBytes": 64,
+    "members": null
+  },
+  {
+    "base": "t_array(t_uint64)5_storage",
+    "encoding": "dynamic_array",
+    "label": "uint64[5][]",
+    "numberOfBytes": "32",
+    "type": "t_array(t_array(t_uint64)5_storage)dyn_storage",
+    "oldNumberOfBytes": 32,
+    "newNumberOfBytes": 32,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "uint24",
+    "numberOfBytes": "3",
+    "type": "t_uint24",
+    "oldNumberOfBytes": 3,
+    "newNumberOfBytes": 3,
+    "base": null,
+    "members": null
+  },
+  {
+    "base": "t_uint24",
+    "encoding": "dynamic_array",
+    "label": "uint24[]",
+    "numberOfBytes": "32",
+    "type": "t_array(t_uint24)dyn_storage",
+    "oldNumberOfBytes": 32,
+    "newNumberOfBytes": 32,
+    "members": null
+  },
+  {
+    "base": "t_array(t_uint24)dyn_storage",
+    "encoding": "inplace",
+    "label": "uint24[][8]",
+    "numberOfBytes": "256",
+    "type": "t_array(t_array(t_uint24)dyn_storage)8_storage",
+    "oldNumberOfBytes": 256,
+    "newNumberOfBytes": 256,
+    "members": null
+  }
+]

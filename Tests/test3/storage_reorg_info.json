@@ -1,0 +1,18 @@
+[
+  {
+    "label": "firstArray",
+    "type": "t_array(t_array(t_uint64)5_storage)dyn_storage",
+    "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000008",
+    "oldOffset": 0,
+    "newOffset": 0
+  },
+  {
+    "label": "secondArray",
+    "type": "t_array(t_array(t_uint24)dyn_storage)8_storage",
+    "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000001",
+    "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "oldOffset": 0,
+    "newOffset": 0
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "label": "person1",
+    "type": "t_struct(Person)_storage",
+    "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "newSlot": "0x000000000000000000000000000000000000000000000000000000000000000c",
+    "oldOffset": 0,
+    "newOffset": 0
+  },
+  {
+    "label": "peopleDynamic",
+    "type": "t_array(t_struct(Person)_storage)dyn_storage",
+    "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000016",
+    "newSlot": "0x000000000000000000000000000000000000000000000000000000000000000f",
+    "oldOffset": 0,
+    "newOffset": 0
+  },
+  {
+    "label": "peopleOfSize4",
+    "type": "t_array(t_struct(Person)_storage)4_storage",
+    "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000017",
+    "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "oldOffset": 0,
+    "newOffset": 0
+  }
+]

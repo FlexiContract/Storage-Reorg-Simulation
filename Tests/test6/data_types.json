@@ -1,0 +1,71 @@
+[
+  {
+    "encoding": "bytes",
+    "label": "string",
+    "numberOfBytes": "32",
+    "type": "t_string_storage",
+    "oldNumberOfBytes": 32,
+    "newNumberOfBytes": 32,
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "uint256",
+    "numberOfBytes": "32",
+    "type": "t_uint256",
+    "oldNumberOfBytes": 32,
+    "newNumberOfBytes": 32,
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "struct MyContract.Person",
+    "members": [
+      {
+        "offset": 0,
+        "slot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "type": "t_string_storage",
+        "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "oldOffset": 0,
+        "newOffset": 0
+      },
+      {
+        "offset": 0,
+        "slot": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "type": "t_uint256",
+        "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "oldOffset": 0,
+        "newOffset": 0
+      }
+    ],
+    "numberOfBytes": "64",
+    "type": "t_struct(Person)_storage",
+    "oldNumberOfBytes": 64,
+    "newNumberOfBytes": 96,
+    "base": null
+  },
+  {
+    "base": "t_struct(Person)_storage",
+    "encoding": "dynamic_array",
+    "label": "struct MyContract.Person[]",
+    "numberOfBytes": "32",
+    "type": "t_array(t_struct(Person)_storage)dyn_storage",
+    "oldNumberOfBytes": 32,
+    "newNumberOfBytes": 32,
+    "members": null
+  },
+  {
+    "base": "t_struct(Person)_storage",
+    "encoding": "inplace",
+    "label": "struct MyContract.Person[4]",
+    "numberOfBytes": "256",
+    "type": "t_array(t_struct(Person)_storage)4_storage",
+    "oldNumberOfBytes": 256,
+    "newNumberOfBytes": 384,
+    "members": null
+  }
+]
